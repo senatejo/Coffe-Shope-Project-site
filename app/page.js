@@ -8,6 +8,7 @@ import About_Us from './about/page';
 import Banner from '@/components/Banner';
 import CustomerReview from '@/components/CustomerReview';
 import Footer from '@/components/Footer';
+import Career from '@/components/Career';
 
 
 // app/page.js
@@ -32,6 +33,8 @@ export default function Home() {
   <About_Us />
 
   <CustomerReview />
+
+  <Career />
 
   <Footer />
 </div>

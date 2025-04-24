@@ -6,7 +6,7 @@ export default function Navbar() {
           <li><a href="#home" className="text-white hover:text-amber-700">Home</a></li>
           <li><a href="#menus" className="text-white hover:text-amber-700">Our Menus</a></li>
           <li><a href="#about" className="text-white hover:text-amber-700">About</a></li>
-          <li><a href="#services" className="text-white hover:text-amber-700">Services</a></li>
+          <li><a href="#Careers" className="text-white hover:text-amber-700">Careers</a></li>
 
         </ul>
       </nav>

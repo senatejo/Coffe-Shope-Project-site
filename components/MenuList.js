@@ -44,10 +44,10 @@ export default function MenuList() {
                 <div className="flex justify-between px-2 py-2">
                   <p className="text-gray-600 mb-4 font-semibold">Rp{menu.harga.toLocaleString("id-ID")}</p>
                   <button
-                    className="px-4 py-2 bg-red-500 hover:bg-red-600 text-white rounded transition-colors duration-200"
+                    className="px-2 py-1 bg-yellow-600 hover:bg-yellow-500 text-white rounded transition-colors duration-200"
                     onClick={() => handleRemove(menu.id)}
                   >
-                    Hapus
+                    Read More
                   </button>
                 </div>
               </div>
