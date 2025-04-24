@@ -6,6 +6,8 @@ import Card from '@/components/Card';
 import MenuList from '@/components/MenuList';
 import About_Us from './about/page';
 import Banner from '@/components/Banner';
+import CustomerReview from '@/components/CustomerReview';
+import Footer from '@/components/Footer';
 
 
 // app/page.js
@@ -28,6 +30,10 @@ export default function Home() {
   <MenuList/>
 
   <About_Us />
+
+  <CustomerReview />
+
+  <Footer />
 </div>
 
   );
