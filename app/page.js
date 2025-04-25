@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar';
 import Button from '@/components/Button';
 import Card from '@/components/Card';
-import MenuList from '@/components/MenuList';
+import MenuList from './MenuList/page';
 import About_Us from './about/page';
 import Banner from '@/components/Banner';
 import CustomerReview from '@/components/CustomerReview';
 import Footer from '@/components/Footer';
-import Career from '@/components/Career';
+import Career from './Career/page';
 
 
 // app/page.js
