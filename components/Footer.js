@@ -1,3 +1,6 @@
+
+import Image from "next/image";
+
 export default function Footer(){
     return(
     <footer className="bg-yellow-800 text-white py-10">
@@ -32,10 +35,23 @@ export default function Footer(){
         {/* Social Icons */}
         <div>
         <h3 className="font-semibold mb-2">Follow Us</h3>
-        <div className="flex space-x-4">
-            <a href="#" className="hover:text-gray-300">🌐</a>
-            <a href="#" className="hover:text-gray-300">📷</a>
-            <a href="#" className="hover:text-gray-300">📘</a>
+        <div className=" space-x-4 flex-col space-y-2">
+            <div className="flex">
+                <Image
+                src="/icons/instagram.png"
+                alt="instagram_Icon"
+                width={30}
+                height={30} />
+                <h1 className="pl-1">Coffeloka</h1>
+            </div>
+            <div className="flex">
+                <Image
+                src="/icons/facebook.png"
+                alt="facebook_Icon"
+                width={30}
+                height={30} />
+                <h1 className="pl-1">Coffe loka</h1>
+            </div>
         </div>
         </div>
 
